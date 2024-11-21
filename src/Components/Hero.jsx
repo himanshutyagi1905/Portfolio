@@ -1,3 +1,5 @@
+import { HERO_CONTENT } from "../Constant";
+
 const Hero = () => {
   return( 
   <div className="border-b border-neutral-900 pb-4 lg:mb-35">
@@ -12,6 +14,9 @@ const Hero = () => {
       text-4xl tracking-tight text-transparent">
         Front-End Developer
      </span>
+     <p>
+    {HERO_CONTENT}
+     </p>
     </div>
     </div>
     </div>
