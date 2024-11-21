@@ -1,4 +1,5 @@
 import { HERO_CONTENT } from "../Constant";
+import profilePic from "../Constant"
 
 const Hero = () => {
   return( 
@@ -14,7 +15,7 @@ const Hero = () => {
       text-4xl tracking-tight text-transparent">
         Front-End Developer
      </span>
-     <p>
+     <p className="my-2 max-w-xl py-6 font-light tracking-tighter">
     {HERO_CONTENT}
      </p>
     </div>
